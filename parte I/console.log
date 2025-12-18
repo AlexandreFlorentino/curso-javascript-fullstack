@@ -33,3 +33,6 @@ console.log(10.99);
 // É possível por mais de um tipo de resultado dentro do mesmo console, como números + strings. Por exemplo:
 
 console.log('Alexandre Florentino tem', 27, 'anos');
+
+// Exercício:
+console.log('Meu nome é "Alexandre Florentino". Estou aprendendo JavaScript às',14, 'da tarde.');
