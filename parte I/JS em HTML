@@ -1,0 +1,24 @@
+console.log(`Alexandre Florentino`);
+
+//pressionando o F8 o code runner roda no terminal do vscode integrado ao Node. 
+
+// pressionando F12 no google chrome o index abrirá o terminal do GC.
+ 
+
+// Incluindo JS dentro do HTML:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset= "UTF-8">
+<tittle> Minha primeira página HTML</tittle>
+</head>
+<body>
+
+</body>
+</html>
+
+
+//Para acessar o JS dentro do html, usaremos a tag <script></script>, podemos utilizar dentro da tag <body> ou da tag <head>
+
+/* Uma boa prática de programação é por o JS em uma página separada, utilizar o método "inline" retarda o carregamento da página, podendo atrapalhar a UX.*/
