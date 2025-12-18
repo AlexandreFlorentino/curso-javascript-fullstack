@@ -1,0 +1,35 @@
+//Sempre que eu quiser mostrar algo na tela, usarei o método/função console.log.
+
+console.log();
+
+//Sempre que for por um texto dentro dessa função,se usa aspas simples, duplas ou crases. 
+
+console.log('Alexandre Florentino'); 
+console.log("Alexandre Florentino");
+console.log(`Alexandre Florentino`);
+
+//Sempre que eu por um console.log após o outro, a função quebrará a linha no terminal.
+
+/* Caso eu queira incluir aspas simples ou duplas no resultado, eu preciso por aspas dentro de aspas. Por exemplo: */
+console.log('"Alexandre Florentino"');
+console.log("'Alexandre Florentino'");
+
+// Console.log dentro de crases é utilizado para Template strings.
+// Todo texto dentro de aspas simples, duplas ou crase, é considerado string.
+
+// Para exibir um número não é necessário aspas ou crase.
+
+console.log(12345); 
+
+
+// Para separar os números dentro do mesmo método, utilizamos a vírgula. Os valores que estiverem no mesmo console, não quebrarão linha no terminal.
+
+console.log(10, 15);
+
+// Para por números reais, utilizamos o ponto final onde deveria ter a vírgula. 
+
+console.log(10.99);
+
+// É possível por mais de um tipo de resultado dentro do mesmo console, como números + strings. Por exemplo:
+
+console.log('Alexandre Florentino tem', 27, 'anos');
