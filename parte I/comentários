@@ -1,0 +1,8 @@
+// comentários de um linha podem ser escrito por '//'. 
+/* comentários com mais de uma linha deve ser escrito por '/* e fechados pelo contrário.
+Tudo que tiver entre essas traves + asterisco, será ignorado também.  
+*/
+
+//comentários são uma boa opção para explicar o código, acessar alguma parte específica ou melhorar as boas práticas de programação.
+
+//Lembrando que cada linguagem de programação tem sua maneira de fazer um comentário diferente.
