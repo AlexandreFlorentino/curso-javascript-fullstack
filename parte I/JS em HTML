@@ -22,3 +22,8 @@ console.log(`Alexandre Florentino`);
 //Para acessar o JS dentro do html, usaremos a tag <script></script>, podemos utilizar dentro da tag <body> ou da tag <head>
 
 /* Uma boa prática de programação é por o JS em uma página separada, utilizar o método "inline" retarda o carregamento da página, podendo atrapalhar a UX.*/
+
+Para criar uma página separada para o JS, utilizamos a tag <script> src:'endereço da página' </script>
+
+
+
