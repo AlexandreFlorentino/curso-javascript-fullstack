@@ -1,0 +1,33 @@
+/*variável constante é uma variável que não muda.
+
+Regras:
+1. Não podemos criar constantes com palavras reservadas.
+2. Constantes precisam ter nomes significativos.
+3. Não pode começar o nome de uma constante com um número.
+4. Não podem conter espaços ou traços.
+5. Utilizamos camelCase.
+6. Case-sensitive
+7. Não podemos modificar o valor de uma constante.
+8. Não utilize var, utilize const.*/
+
+const nome= 'Alexandre Florentino';
+console.log(nome);
+/*terminal: Alexandre Florentino
+
+Não podemos criar uma constante com o valor undefined, como é possível no let.
+
+é possível pegar o valor de uma variável ou de uma constante e atribuir a outra variável ou outra constante.*/
+
+const primeiroNumero = 5;
+const segundoNumero = 10;
+const conta = primeiroNumero * segundoNumero; //o valor será a multiplicação das duas consts.
+console.log(conta); //= 50
+
+
+/*Relembrando:
+Dentro de aspas: String =  texto
+Fora de aspas: Number = número*/
+
+//Para verificar o tipo de uma variável/constante, podemos usar o typeof. 
+console.log(typeof primeiroNumero);
+ ,
