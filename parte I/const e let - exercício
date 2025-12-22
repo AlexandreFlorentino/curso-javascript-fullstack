@@ -1,0 +1,14 @@
+/*Objetivo desse file é treinar o que aprendi conforme o que o professor foi passando na aula.
+O resultado do console deve ser: Alexandre Florentino tem 28 anos, pesa 108 kg, tem 1.87 de altura e seu IMC é de 25.95*/
+
+const nome = 'Alexandre Florentino';
+let idade = 28;
+let peso = 108;
+let altura = 1.87;
+let imc = peso / (altura * altura)
+let anoNascimento; //2025 - idade.
+
+//resultado:
+console.log(nome + 'tem' + idade + 'anos, pesa' + peso + 'kg, tem' + altura + 'de altura e seu IMC é de' + imc);
+
+// O + em variáveis do tipo strings é utilizado para concatenação, não para soma. 
