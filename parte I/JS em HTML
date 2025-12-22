@@ -26,4 +26,7 @@ console.log(`Alexandre Florentino`);
 Para criar uma página separada para o JS, utilizamos a tag <script> src:'endereço da página' </script>
 
 
+A função alert, é uma função que só funciona no navegador, no caso do terminal(node), ela não se aplica.
+ex: 
+alert('Olá mundo!');
 
