@@ -1,0 +1,12 @@
+const nome = 'Alexandre'; //string
+const sobrenome = "Florentino"; //string
+const nomeCompleto = `Alexandre Florentino`; //string
+const idade = 28; //number
+const peso = 108.50 // number
+let valorNulo; // underfined = não aponta para lugar nenhum da memória
+let qualquerCoisa = null; // Nulo - não aponta para local nenhum na memória.
+const boolean = false; //verdadeiro ou falso, apenas. Lógica booleana.
+
+//para verificar o tipo de uma variável, utilizamos o typeof
+
+console.log(typeof nome, sobrenome);
