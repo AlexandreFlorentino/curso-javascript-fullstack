@@ -1,0 +1,6 @@
+// Primeira diferença entre var e let: é possível redefinir o valor da variável utilizando var.
+
+var nome = 'Alexandre Florentino';
+var nome = 'Alexandre Florentino Júnior';
+
+//Com let, se fizermos isso, quebrará o código e acusará erro.
