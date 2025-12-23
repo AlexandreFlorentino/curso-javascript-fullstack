@@ -1,0 +1,48 @@
+/* Operadores aritméticos 
++ adição / concatenação. -> Em caso de strings, o + será utilizado para concatenar, em numbers, ele será usado para adicionar.
+- subtração
+/ divisão
+* multiplicação
+** potenciação
+% resto da divisão
+
+Assim como na matemática, os operadores tem prioridades e sequências do que será efuatado primeiro. A ordem é a seguinte:
+1. ( )
+2. **
+3. * / %
+4. + -
+*/
+
+//Exemplo de concatenação:
+const num1 = '5'
+const num2 = 10
+console.log(num1 + num2);
+//Terminal: 510
+
+//Exemplo de potenciação:
+console.log(num1 ** num2);
+//Terminal: 1024
+
+//Exemplo de resto da divisão:
+let n1 = 10;
+let n2 = 3;
+console.log(num1 % num2);
+//Terminal: 1
+
+/* Operador de incremento: ++
+Serve para aumentar o valor da variável de 1 em 1. 
+Muito utilizada nas estruturas de repetições(loop)
+ex:
+*/
+let contador = 1;
+contador++;
+console.log(contador);
+//Terminal: 2
+
+//Como iremos aumentar ou diminuir o valor da variável, operadores de incremento ou decremento devem ser declarados com let, não const.
+//O operador de incremento pode ser usado pós variável(contador++), ou pré variável(++contador). Quando usadas no pré, primeiro o sistema faz a conta, depopis ele lança o resultado. Exemplo:
+console.log(contador++); //Terminal: 1
+console.log(++contador); //Terminal: 2
+
+//Operador de decremento: -- (aplica-se as mesmas regras do operador de incremento).
+
