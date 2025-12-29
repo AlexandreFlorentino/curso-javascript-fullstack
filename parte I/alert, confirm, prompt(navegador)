@@ -1,0 +1,59 @@
+alert('mensagem.'); /* <-- Vai mostrar no navegador uma caixinha de alerta com a mensagem escolhida. 
+Essa função é utilizada apenas no navegador, Node não funciona. 
+//alert é um atalho para window.alert('mensagem.')
+
+window.confirm('Mensagem de CONFIRMAÇÃO'); /* O método confirm serve para por alguma mensagem de confirmação na página. 
+O resultado retornará ao sistema como true ou false. */
+
+window.prompt('imput de texto onde o usuário pode digitar alguma coisa'); /* O prompt retorna ao navegador a frase que você digitar. 
+
+//é possível agregar valor a uma variável com o resultado do objeto window. ex:
+var confirmado = window.confirm('Aceitas os termos de uso?');
+
+//O navegador tem o 'Objeto Window', os alerts, prompts, consoles, confirms estarão todos dentro do objeto window. */
+
+//Comandos do objeto window:
+
+window.document     // Objeto document da página
+window.location     // URL atual (redirecionamentos, etc.)
+window.history      // Histórico de navegação
+window.navigator    // Informações do navegador
+window.screen       // Informações da tela
+window.localStorage // Armazenamento local
+window.sessionStorage // Armazenamento de sessão
+window.console      // Console do navegador
+window.frames       // Lista de frames/iframes
+window.alert()      // Caixa de alerta
+window.confirm()    // Caixa de confirmação (ok/cancelar)
+window.prompt()     // Caixa para entrada de texto
+window.open()       // Abrir nova janela/popup
+window.close()      // Fechar janela atual
+window.print()      // Abrir diálogo de impressão
+window.setTimeout()     // Executar após delay
+window.clearTimeout()   // Cancelar setTimeout
+window.setInterval()    // Executar repetidamente
+window.clearInterval()  // Cancelar setInterval
+window.scrollTo()       // Rolar para coordenadas específicas
+window.scrollBy()       // Rolar por quantidade específica
+window.scroll()         // Similar ao scrollTo
+window.innerWidth       // Largura da janela
+window.innerHeight      // Altura da janela
+window.outerWidth       // Largura total da janela
+window.outerHeight      // Altura total da janela
+window.screenX / screenLeft  // Posição X da janela
+window.screenY / screenTop   // Posição Y da janela
+window.onload          // Quando a página carrega
+window.onresize        // Quando a janela é redimensionada
+window.onscroll        // Quando ocorre rolagem
+window.onbeforeunload  // Antes de fechar/recarregar
+window.onfocus         // Quando a janela ganha foco
+window.onblur          // Quando a janela perde foco
+window.focus()         // Trazer janela para frente
+window.blur()          // Remover foco da janela
+window.getSelection()  // Obter texto selecionado
+window.frameElement    // Retorna o iframe que contém a janela
+window.parent          // Janela pai (se em iframe)
+window.top             // Janela superior
+window.self            // Referência à própria janela
+
+
