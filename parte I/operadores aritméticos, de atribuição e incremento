@@ -46,3 +46,5 @@ console.log(++contador); //Terminal: 2
 
 //Operador de decremento: -- (aplica-se as mesmas regras do operador de incremento).
 
+/*Para converter a string para número inteiro, podemos usar o parseInt();*/
+
