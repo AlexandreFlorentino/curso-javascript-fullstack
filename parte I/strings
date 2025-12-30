@@ -1,0 +1,5 @@
+// Strings são indexadas. Ou seja, cada caractere tem um índice. 
+let umaString = 'Um texto';
+//  índices:     01 23456
+console.log(umaString[4]); //Só vai ser exibido o elemento do índice 4, ou seja, o x.
+
