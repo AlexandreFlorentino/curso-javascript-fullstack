@@ -1,0 +1,8 @@
+let num1 = 1; //Number
+let num2 = 2.5; //Number
+console.log(num1 + num2);
+
+para transformar a variável temporariamente numa string, utilizamos o toString()
+console.log(num1.toString() + num2);
+para alterar o valor permanentemente, mudaremos o tipo na variável
+num1 = num1.toString();
