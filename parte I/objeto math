@@ -1,0 +1,34 @@
+Definiçãoo de objeto math pelo deepseek:  é um objeto embutido (built-in) que fornece propriedades e métodos para realizar operações matemáticas comuns e constantes. Ele é estático, ou seja, você não instancia um objeto Math com new Math(), mas usa diretamente suas propriedades e métodos.
+
+Constantes comum: 
+Math.PI          // 3.141592653589793
+Math.E           // Número de Euler: ~2.718
+Math.SQRT2       // Raiz quadrada de 2: ~1.414
+Math.LN2         // Logaritmo natural de 2: ~0.693
+
+Arredondamentos:
+Math.round(4.7)   // 5 (arredonda para o inteiro mais próximo)
+Math.floor(4.7)   // 4 (arredonda para baixo)
+Math.ceil(4.3)    // 5 (arredonda para cima)
+Math.trunc(4.9)   // 4 (remove a parte decimal)
+
+Potência e raízes: 
+Math.pow(2, 3)    // 8 (2 elevado a 3)
+Math.sqrt(16)     // 4 (raiz quadrada)
+Math.cbrt(27)     // 3 (raiz cúbica)
+Math.exp(1)       // ~2.718 (e elevado a x)
+
+Trigonometria(ângulos em radianos):
+Math.sin(Math.PI / 2)   // 1
+Math.cos(Math.PI)       // -1
+Math.tan(0)             // 0
+
+Logarítmos:
+Math.log(10)        // Logaritmo natural (base e)
+Math.log10(100)     // 2 (base 10)
+Math.log2(8)        // 3 (base 2)
+
+Mínimo e máximo:
+Math.max(10, 20, 5)   // 20
+Math.min(10, 20, 5)   // 5
+
