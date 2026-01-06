@@ -1,0 +1,27 @@
+você pode imaginar o array como uma lista, ou coleção.
+para criar um array:
+const alunosJiuJitsu = ['Ricardo', 'Huan', 'Katlen', 'João', 'Geovana', 'Toinho', 'Vavá', 'Recruta'];
+Assim como strings, os arrays também são indexados, porém são indexados por elementos.
+                            0       1        2         3        4         5         6         7
+const alunosJiuJitsu = ['Ricardo','Huan', 'Katlen', 'João', 'Geovana', 'Toinho', 'Vavá', 'Recruta'];
+
+É possível editar os arrays mudando algum fator indexado. 
+ex: alunosJiuJitsu[0] = 'Pedro';
+O index 0 da const agora é Pedro, não Ricardo.
+Para adicionar um valor na array, é só acrescentar um novo elemento no índice:
+alunosJiuJitsu[8] = 'Joana';
+Index 8 foi adicionado.
+
+Para descobrir o tamanho do array, podemos utilizar o alunosJiuJitsu.length.
+ex.: console.log(alunosJiuJitsu.length);
+ou para adicionar sempre no último índice, podemos adicionar automaticamente, assim:
+alunosJiuJitsu[alunosJiuJitsu.length] = 'Deco';
+alunosJiuJitsu[alunosJiuJitsu.length] = 'Durão';
+alunosJiuJitsu[alunosJiuJitsu.length] = 'Xande';
+Assim adicionará um índice sempre ao final.
+
+Também tem métodos mais práticos:
+
+alunosJiuJitsu.push('Tereza'); -> Adiciona ao fim do array
+alunosJiuJitsu.unshift('Acutis'); -> Adiciona no começo do array
+
