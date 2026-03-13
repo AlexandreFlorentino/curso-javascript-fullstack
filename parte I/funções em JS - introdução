@@ -1,0 +1,35 @@
+/* funções = executam ações
+
+Utiliza-se 'function' */
+
+function saudacao(){
+  console.log('Bom dia!');
+}
+saudacao(); // -> Estou chamando a função
+
+Suponha que eu queria cumprimentar alguém em específico, eu criarei um parametro.
+function saudacao(nome){
+  console.log('Bom dia!');
+  }
+  saudacao('Alexandre');
+  //O terminal responderá "Bom dia! Alexandre"
+
+  o comando return, serve para completar as ações das funções.
+
+  function soma(x,y){
+  const resultado = x + y;
+  return resultado;
+  }
+  console.log(soma(2,2));
+  console.log(soma(3,1));
+  console.log(soma(5,10));
+
+  //Também é necessário criar uma const onde o resultado seja o return da função.
+  const raiz = function (n){
+     return n ** 2;
+     };
+
+     Método arrow function de criar function:
+     const raiz = n => n ** 2;
+     
+  
