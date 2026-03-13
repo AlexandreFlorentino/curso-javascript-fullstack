@@ -1,0 +1,32 @@
+Para que não precisemos criar consts relacionados soltas, como por exemplo:
+const nome01 = 'Luiz';
+const sobrenome01 = 'Miranda';
+const idade01 = 25;
+
+const nome02 = 'Maria';
+const sobrenome02 = 'Oliveira';
+const idade02 = 55;
+
+Nós podemos criar um objeto, por exemplo:
+const pessoa1 = {
+nome: 'Alexandre'
+sobrenome: 'Florentino',
+idade: 28
+};
+
+Para acessar esses atributos no objeto, eu posso verificar utilizando o console.log no terminal:
+console.log(pessoa1.nome);
+console.log(pessoa1.sobrenome);
+
+Também é possível criar uma função que crie pessoas através do sistema. 
+
+function criaPessoa (nome, sobrenome, idade) {
+   return {
+     nome: nome,
+     sobrenome: sobrenome,
+     idade: idade
+    };
+  }
+
+const pessoa1 = criaPessoa('Alexandre', 'Florentino', 28);
+Funções que são fábricas de objetos: Factory.
