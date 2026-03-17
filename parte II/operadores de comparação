@@ -7,3 +7,7 @@ em JS temos os seguintes operadores de comparação:
 === igualdade estrita (Chega valor e tipo)
 != diferente (valor) (não recomendável)
 !== diferente estrito (valor e tipo)
+
+O terminal responderá os operadores de comparação com valores booleanos(true, false). 
+ex.: console.log(10<3);
+Terminal: false
