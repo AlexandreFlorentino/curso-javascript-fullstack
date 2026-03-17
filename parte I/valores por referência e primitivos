@@ -1,0 +1,7 @@
+Diferença por valor primitivo e valor por referência
+revisando: 
+dados primitivos: string, number, boolean, undefined, null (bigint, symbol ainda verei)
+dados primitivos = imutáveis
+
+referência: array, object, function
+referência= mutável
