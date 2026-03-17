@@ -1,9 +1,0 @@
-em JS temos os seguintes operadores de comparação:
->  maior que
->= maior ou igual a que
-< menor que
-<= menor ou igual a
-== igualdade (checa apenas valor) (não recomendável)
-=== igualdade estrita (Chega valor e tipo)
-!= diferente (valor) (não recomendável)
-!== diferente estrito (valor e tipo)
